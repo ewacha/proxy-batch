@@ -35,6 +35,12 @@ also in `.bowerrc`:
 }
 ```
 
+and, it will set a user environment variable via
+```
+call setx http_proxy http://%proxyurl%:%port%
+call setx https_proxy http://%proxyurl%:%port%
+```
+
 after this, run the respective yeoman generator...
 
 attention: yeoman asks whether to overwrite the file `.bowerrc`, you must say no :)
