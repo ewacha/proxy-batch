@@ -9,7 +9,7 @@ place the `configProxy.bat` in a workspace directory an let it run.
 
 
 ##### work behind a company proxy
-the bat asks you to insert a valid proxy url and port. after this, the batch insert this information in `.gitconfig`:
+select option [1], and the bat asks you to insert a valid proxy url and port. after this, the batch insert this information in `.gitconfig`:
 
 ```
 [http]
@@ -45,4 +45,7 @@ after this, run the respective yeoman generator...
 
 attention: yeoman asks whether to overwrite the file `.bowerrc`, you must say no :)
 
+##### work without a proxy
+
+if so, select option [2]. this command will remove all proxy settings you set above...
 
