@@ -45,6 +45,8 @@ after this, run the respective yeoman generator...
 
 attention: yeoman asks whether to overwrite the file `.bowerrc`, you must say no :)
 
+![](http://www.wacha.de/git/yo.png)
+
 ##### work without a proxy
 
 if so, select option [2]. this command will remove all proxy settings you set above...
