@@ -35,7 +35,7 @@ also in `.bowerrc`:
 }
 ```
 
-after this, the respective generator can be called...
+after this, run the respective yeoman generator...
 
 attention: yeoman asks whether to overwrite the file `.bowerrc`, you must say no :)
 
