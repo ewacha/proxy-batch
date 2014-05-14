@@ -54,7 +54,7 @@ rem .npmrc, path c:\users\<name>
 echo 2. set npm http-proxy   
 echo. 
 call npm config set proxy http://%proxyUrl%:%port%
-call npm config set https-proxy https://%proxyUrl%:%port%
+call npm config set https-proxy http://%proxyUrl%:%port%
 echo done...
 echo. 
 
